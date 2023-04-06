@@ -35,7 +35,7 @@ class SafeAreaInsetsBugViewController: UIViewController, UICollectionViewDelegat
   
   @objc func showTip() {
     let vc = ReadMeViewController(
-      text: "Run on any iOS version and observe cells' heights fluctuating due to built-in safe area insets of UIHostingController when the collection/table view isn't directly attached to the safeAreaLayoutGuide (notice the gray view above the collection view)"
+      text: "(Any iOS version) Run on any simulator device that has safe area (e.g. iPhone 14) and observe cells' heights fluctuating due to built-in safe area insets of UIHostingController when the collection/table view isn't directly attached to the safeAreaLayoutGuide (notice the gray view above the collection view)"
     )
     vc.modalPresentationStyle = .pageSheet
     present(vc, animated: true)

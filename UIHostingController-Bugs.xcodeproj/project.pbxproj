@@ -33,7 +33,7 @@
 		71059E5329DC4E7700E15BC5 /* UIHostingCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIHostingCell.swift; sourceTree = "<group>"; };
 		714E572629DB0AD900BC47E8 /* KeyboardAvoidanceBugStackViewControlller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardAvoidanceBugStackViewControlller.swift; sourceTree = "<group>"; };
 		71C0115B29D49EF00043FE06 /* PerformanceListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PerformanceListView.swift; sourceTree = "<group>"; };
-		71C5974F2965C1EC00BA5406 /* SwiftUI-Cell.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftUI-Cell.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		71C5974F2965C1EC00BA5406 /* UIHostingController-Bugs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "UIHostingController-Bugs.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		71C597522965C1EC00BA5406 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		71C597542965C1EC00BA5406 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		71C597592965C1EC00BA5406 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -56,7 +56,7 @@
 		71C597462965C1EC00BA5406 = {
 			isa = PBXGroup;
 			children = (
-				71C597512965C1EC00BA5406 /* SwiftUI-Cell */,
+				71C597512965C1EC00BA5406 /* UIHostingController-Bugs */,
 				71C597502965C1EC00BA5406 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -64,12 +64,12 @@
 		71C597502965C1EC00BA5406 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				71C5974F2965C1EC00BA5406 /* SwiftUI-Cell.app */,
+				71C5974F2965C1EC00BA5406 /* UIHostingController-Bugs.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		71C597512965C1EC00BA5406 /* SwiftUI-Cell */ = {
+		71C597512965C1EC00BA5406 /* UIHostingController-Bugs */ = {
 			isa = PBXGroup;
 			children = (
 				71C597522965C1EC00BA5406 /* AppDelegate.swift */,
@@ -88,15 +88,15 @@
 				71C5975D2965C1EE00BA5406 /* LaunchScreen.storyboard */,
 				71C597602965C1EE00BA5406 /* Info.plist */,
 			);
-			path = "SwiftUI-Cell";
+			path = "UIHostingController-Bugs";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		71C5974E2965C1EC00BA5406 /* SwiftUI-Cell */ = {
+		71C5974E2965C1EC00BA5406 /* UIHostingController-Bugs */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 71C597632965C1EE00BA5406 /* Build configuration list for PBXNativeTarget "SwiftUI-Cell" */;
+			buildConfigurationList = 71C597632965C1EE00BA5406 /* Build configuration list for PBXNativeTarget "UIHostingController-Bugs" */;
 			buildPhases = (
 				71C5974B2965C1EC00BA5406 /* Sources */,
 				71C5974C2965C1EC00BA5406 /* Frameworks */,
@@ -106,11 +106,11 @@
 			);
 			dependencies = (
 			);
-			name = "SwiftUI-Cell";
+			name = "UIHostingController-Bugs";
 			packageProductDependencies = (
 			);
 			productName = "SwiftUI-Cell";
-			productReference = 71C5974F2965C1EC00BA5406 /* SwiftUI-Cell.app */;
+			productReference = 71C5974F2965C1EC00BA5406 /* UIHostingController-Bugs.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -128,7 +128,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 71C5974A2965C1EC00BA5406 /* Build configuration list for PBXProject "SwiftUI-Cell" */;
+			buildConfigurationList = 71C5974A2965C1EC00BA5406 /* Build configuration list for PBXProject "UIHostingController-Bugs" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -143,7 +143,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				71C5974E2965C1EC00BA5406 /* SwiftUI-Cell */,
+				71C5974E2965C1EC00BA5406 /* UIHostingController-Bugs */,
 			);
 		};
 /* End PBXProject section */
@@ -325,7 +325,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 43FX9N92BA;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "SwiftUI-Cell/Info.plist";
+				INFOPLIST_FILE = "UIHostingController-Bugs/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -336,7 +336,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "alex.SwiftUI-Cell";
+				PRODUCT_BUNDLE_IDENTIFIER = "alexozun.UIHostingController-Bugs";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -353,7 +353,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 43FX9N92BA;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "SwiftUI-Cell/Info.plist";
+				INFOPLIST_FILE = "UIHostingController-Bugs/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -364,7 +364,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "alex.SwiftUI-Cell";
+				PRODUCT_BUNDLE_IDENTIFIER = "alexozun.UIHostingController-Bugs";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -375,7 +375,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		71C5974A2965C1EC00BA5406 /* Build configuration list for PBXProject "SwiftUI-Cell" */ = {
+		71C5974A2965C1EC00BA5406 /* Build configuration list for PBXProject "UIHostingController-Bugs" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				71C597612965C1EE00BA5406 /* Debug */,
@@ -384,7 +384,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		71C597632965C1EE00BA5406 /* Build configuration list for PBXNativeTarget "SwiftUI-Cell" */ = {
+		71C597632965C1EE00BA5406 /* Build configuration list for PBXNativeTarget "UIHostingController-Bugs" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				71C597642965C1EE00BA5406 /* Debug */,
